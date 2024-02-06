@@ -1,0 +1,43 @@
+body {
+
+    margin: 0%;
+}
+
+h1 {
+
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.hosting-colour {
+
+    color: blueviolet;
+}
+
+section {
+
+    display: flex;
+}
+
+.half-width {
+
+    width: 50%;
+    padding: 6%;
+}
+
+.half-width img {
+
+    width: 80%;
+}
+
+.hire-button {
+    text-decoration: none;
+    background-image: linear-gradient(blueviolet, blue);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.banner {
+    background-image: url(images/banner7.png);
+    background-repeat: no-repeat;
+}
