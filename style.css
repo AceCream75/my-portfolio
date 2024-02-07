@@ -1,11 +1,24 @@
 body {
 
     margin: 0%;
+
+}
+
+section {
+    margin-bottom: 150px;
 }
 
 h1 {
 
     font-family: 'Protest Riot', sans-serif;
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Protest Riot', sans-serif;
+
 }
 
 .hosting-colour {
@@ -13,7 +26,7 @@ h1 {
     color: blueviolet;
 }
 
-section {
+.flexible-container {
 
     display: flex;
 }
@@ -40,4 +53,32 @@ section {
 .banner {
     background-image: url(images/banner7.png);
     background-repeat: no-repeat;
+}
+
+.Dream-Big {
+    background-image: url(images/banner7.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.experience-item {
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    border-left: 5px solid blueviolet;
+}
+
+#Full-stack-developer {
+    border-left: 5px solid blue;
+}
+
+footer p {
+
+    text-align: center;
 }
